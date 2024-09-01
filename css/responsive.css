@@ -1,0 +1,147 @@
+@media screen and (max-width: 991px){
+    .commision{
+        margin-top: 40px;
+    }
+    .hero-content {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .funfact-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dis-reverse{
+        flex-direction: column-reverse;
+    }
+    .hero-content form {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px){
+
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .modal-content {
+        width: 90%!important;
+      }
+      .funFact-iteam {
+        width: 33%;
+        text-align: center;
+    }
+    .slider-testmonail {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section-title{
+        width: 70%;
+    }
+    .pricing-list {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cta-img {
+        text-align: center;
+    }
+    .cta-img img{
+        width: 80%;
+    }
+    .cta-content {
+        padding-left: 0px;
+    }
+    .step-box::after{
+        display: none;
+    }
+    .price-box{
+        margin-bottom: 30px;
+    }
+    .funfact-box {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .funFact-iteam {
+        width: 50%;
+        text-align: center;
+    }
+    .cta-img img {
+        width: 65%;
+        margin-bottom: 30px;
+    }
+    .nav-item {
+        padding-left: 0px;
+        margin: 10px 0;
+    }
+    .about-box-content h1{
+        text-align: center;
+        margin: 15px 0;
+        font-size: 30px;
+    }
+    .about-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-content h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .cta-gra h1{
+        font-size: 30px;
+    }
+    .feature-iteam{
+        width: 100%;
+        padding: 0;
+    }
+    .blog img{
+        margin-top: 30px;
+    }
+    .blog-cta-img{
+        display: none;
+    }
+    .blog-content-cta{
+        width: 100%;
+        padding: 20px;
+    }
+    .blog-content-cta ul{
+        flex-direction: column;
+    }
+    .pipe{
+        display: none;
+    }
+    .blog-iteam {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .blog-divder:after{
+        display: none;
+    }
+    .mar-150{
+        margin: 0;
+    }
+    .mar-100{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .cta-img img {
+        width: 65%;
+    }
+    .cta-home {
+        width: 90%;
+       
+    }
+    .section-title {
+        width: 100%;
+    }
+    .hero-content form {
+        width: 90%;
+        margin: 0 ;
+    }
+   
+}

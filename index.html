@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bnb Partner</title>
+	<!-- Main Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Bootstrap -->
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+									
+  	<!-- google Font  -->
+  	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  	<!-- Font awesome -->
+	<script src="https://kit.fontawesome.com/b2b7d27ef0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!-- *******header area********* -->
+	<section id="gobal-header"></section>
+	<script src="js/header.js"></script>
+	<!-- *******header area********* -->
+	 
+	<section class="hero">
+			<div class="container">
+				<div class="row dis-flex dis-reverse">
+					<div class="col-lg-6 col-md-12">
+						<div class="hero-content">
+							<p>Airbnb management:</p>
+							<h1>Get rid of your hosting headaches
+							</h1>
+							<p>Maximise your income and minimise your stress with our expert Airbnb Management team. We handle every detail for you, from listing your property on Airbnb, Booking.com, and more, to optimising your rental income.</p>
+							<form action="">
+								<input type="text" placeholder="Start typing your address...">
+								<select name="" id="">
+									<option value="" selected>Apartment</option>
+									<option value="">Villa </option>
+									
+								</select>
+								<div class="as-stepper">
+									<input name="beds" class="as-stepper__input" placeholder="Number of bedrooms" type="number" min="1" max="10" required="" tabindex="2">
+									<button type="button" class="beds-count-select-button minus" data-type="minus">-</button>
+									<button type="button" class="beds-count-select-button plus" data-type="plus">+</button>
+								</div>
+								<input type="submit" value="GET ESTIMATE" id="openPopupBtn">
+					
+							</form>
+							<div class="cta-hero">
+								<a href="#">Or Book a Free Consultation with our team</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="hero-img">
+							<img src="images/hero-img.webp" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		
+	</section>
+
+
+	<!-- The Popup Form -->
+	<div id="popupForm" class="modal">
+	<div class="modal-content">
+	  <span class="closeBtn">&times;</span>
+	  
+	  <form action="/submit-form" method="POST">
+		
+  
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+  
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" >
+  
+		
+  
+		<button type="submit">Submit</button>
+	  </form>
+	</div>
+  </div>
+
+	<section class="fun-fact">
+		<div class="container">
+			<div class="funfact-box">
+				<div class="funFact-iteam">
+					<h3>11,650+</h3>
+					<p>Properties<br> Managed
+					</p>
+				</div>
+				<div class="funFact-iteam">
+					<h3>2.3M+
+					</h3>
+					<p>Nights<br>
+						Managed</p>
+				</div>
+				<div class="funFact-iteam">
+					<h3>580,000+
+					</h3>
+					<p>Check-ins/outs <br>Completed
+
+					</p>
+				</div>
+				<div class="funFact-iteam">
+					<h3>£230M+
+					</h3>
+					<p>Booking<br>
+						Revenue
+						</p>
+				</div>
+				<div class="funFact-iteam">
+					<h3>4.7/5
+					</h3>
+					<p>Trustpilot<br>
+						Rating
+						
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="arnb">
+		<div class="container">
+			<div class="row dis-flex ">
+				<div class="col-lg-8 col-md-12">
+					<h2>Complete Airbnb management service
+					</h2>
+					<p>Explore Houst’s comprehensive range of services designed to optimise your Airbnb management experience. From professional photography to advanced guest vetting, our tailored solutions ensure your property's potential is fully realised.
+
+					</p>
+					<div class="row mar-50">
+						<div class="col-md-4">
+							<div class="list-management">
+								<h3>Listing Management
+								</h3>
+								<ul>
+									<li><i class="fa-solid fa-square-full"></i>Multi-platform listings</li>
+									<li><i class="fa-solid fa-square-full"></i>Professional photography
+									</li>
+									<li><i class="fa-solid fa-square-full"></i>Listing creation
+									</li>
+									<li><i class="fa-solid fa-square-full"></i>Price optimisation
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="list-management">
+								<h3>Guest Management
+
+								</h3>
+								<ul>
+									<li><i class="fa-solid fa-square-full"></i>Multi-platform listings</li>
+									<li><i class="fa-solid fa-square-full"></i>Professional photography
+									</li>
+									<li><i class="fa-solid fa-square-full"></i>Listing creation
+									</li>
+									<li><i class="fa-solid fa-square-full"></i>Price optimisation
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="list-management">
+								<h3>Property Management
+
+								</h3>
+								<ul>
+									<li><i class="fa-solid fa-square-full"></i>Multi-platform listings</li>
+									<li><i class="fa-solid fa-square-full"></i>Professional photography
+									</li>
+									<li><i class="fa-solid fa-square-full"></i>Listing creation
+									</li>
+									<li><i class="fa-solid fa-square-full"></i>Price optimisation
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12">
+					<div class="commision">
+						<h3>Commission-Based<br>
+							Pricing From</h3>
+						<div class="dis-box">
+							<h2>14%
+								</h2>
+								<p>of your
+									rental revenue</p>
+						</div>	
+						<p>The commission depends on
+							the property profile and location</p>
+						<div class="gobal-btn">
+							<a href="#">free estimate</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="earn-more">
+		<div class="container">
+			<div class="row dis-flex">
+				<div class="col-lg-6">
+					<div class="earn-content">
+						<h2>Earn more with
+							multi-platform listings.</h2>
+							<p>We'll showcase your property across multiple platforms, allowing you to manage your calendar seamlessly from one central location. Specialising in Airbnb management, our in-house platform is engineered to handle every aspect of each booking or tenancy, all while focusing on maximising your income.
+
+							</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="earn-img">
+						<img src="images/mony-logo.webp" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="cta theme-bg">
+		<div class="container">
+			<div class="row dis-flex">
+				<div class="col-md-4">
+					<div class="cta-img">
+						<img src="images/56.webp" alt="">
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="cta-content">
+						<h2>Increase your rental income with Houst:
+						</h2>
+						<p>We recognise that your property is more than just a space; it's your pathway to financial freedom. By joining forces with our Airbnb management team, you leverage our years of specialised expertise to unlock a thriving market—potentially boosting your earnings by up to 56%.
+
+						</p>
+						<div class="gobal-btn">
+							<a href="">free estimate</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pro-managment">
+		<div class="container">
+			<div class="section-title">
+				<h2>Property management software
+				</h2>
+				<p>We’ve built a powerful platform and put your home at the heart of it. See what’s happening, what you’re earning, and your overall rating - feeling in control has never been this simple.
+				</p>
+			</div>
+			<img src="images/mockup.webp" alt="">
+		</div>
+	</section>
+
+	<section class="testmonail">
+		<div class="container">
+			<div class="section-title">
+				<h2>What our clients say:
+				</h2>
+				<p>Join our growing community of happy hosts who have unlocked the full potential of their homes to gain financial freedom and peace of mind with Houst.</p>
+			</div>
+
+			<div class="slider-testmonail">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<iframe width="100%" height="425" src="https://www.youtube.com/embed/x2KLpqzTzIY?si=aEGQUG6AdPpbAsBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					  </div>
+					  <div class="carousel-item">
+						<iframe width="100%" height="425" src="https://www.youtube.com/embed/mQovKhj3Ak8?si=hvxEgDwY_H0n760I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					  </div>
+					  <div class="carousel-item">
+						<iframe width="100%" height="425" src="https://www.youtube.com/embed/5aHona7uuIg?si=u8oWlmjH9b7ybJBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					  </div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				  </div>
+			</div>
+		</div>
+	</section>
+
+	<section class="step">
+		<div class="container">
+			<div class="section-title">
+				<h2>Getting started is easy.
+				</h2>
+				<p>Get a free estimate, then book a call to discuss your potential. Happy? We'll take it from there.
+
+				</p>
+			</div>
+			<div class="row dis-flex">
+				<div class="col-lg-4 col-md-6">
+					<div class="step-box">
+						<h1>1</h1>
+						<h3>Book a call
+						</h3>
+						<p>It all stats with a call. Check we’re a good fit, find out more about how we’ll tailor out letting strategy to you and if happy - we’ll onboard your property, take professional photos and create your platform listings.
+
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="step-box">
+						<h1>2</h1>
+						<h3>Prepare for hosting
+
+						</h3>
+						<p>Once you’re ready to start hosting, we’ll vet your guests and check them in. From hotel-quality linen to 5-star property cleans, we’ll take care of everything to make sure they leave you glowing reviews.
+
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="step-box">
+						<h1>3</h1>
+						<h3>Start earning
+						</h3>
+						<p>Our dashboard lets you see all your income and bookings at a glance, and we'll forward your earnings straight to your nominated bank account as soon as we receive them. It's time to take your property to the next level!
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="theme-bg cta">
+		<div class="container">
+			<div class="cta-home">
+				<h1>Ready to find out
+					how much you could make?</h1>
+					<div class="gobal-btn">
+						<a href="#">Free estimate</a>
+					</div>
+			</div>
+		</div>
+	</section>	
+
+	<section class="pricing">
+		<div class="container">
+			<div class="section-title">
+				<h1>Flexible pricing to fit all needs.
+				</h1>
+				<p>Whether you're just getting started with short-let hosting or joining for the long term, there’s a plan just for you.
+
+				</p>
+				
+			</div>
+			<div class="pricing-list">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="price-box">
+							<h4>From 18%
+							</h4>
+							<p>For unlimited flexibility – use your property whenever you need to.
+
+							</p>
+							<ul>
+								<li><i class="fa-solid fa-check"></i>Housekeeping and laundry</li>
+								<li><i class="fa-solid fa-check"></i>24/7 guest support</li>
+								<li><i class="fa-solid fa-check"></i>Expert host support</li>
+							</ul>
+							<div class="gobal-btn">
+								<a href="#">Learn more</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="price-box">
+							<h4>From 18%
+							</h4>
+							<p>For unlimited flexibility – use your property whenever you need to.
+
+							</p>
+							<ul>
+								<li><i class="fa-solid fa-check"></i>Housekeeping and laundry</li>
+								<li><i class="fa-solid fa-check"></i>24/7 guest support</li>
+								<li><i class="fa-solid fa-check"></i>Expert host support</li>
+							</ul>
+							<div class="gobal-btn">
+								<a href="#">Learn more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="gobal">
+		<div class="container">
+			<div class="section-title">
+				<h1>Global company - local knowledge.
+				</h1>
+				<p>We are the world's largest Airbnb management company specialising in short-term lets. We were founded in 2015 and are now in 19 cities around the world, from Bristol to Brisbane.
+
+				</p>
+			</div>
+			<img src="images/gobal.webp" alt="">
+		</div>
+	</section>
+
+	<section class="theme-bg cta">
+		<div class="container">
+			<div class="cta-home">
+				<h1>Ready to find out
+					how much you could make?</h1>
+					<div class="gobal-btn">
+						<a href="#">Free estimate</a>
+					</div>
+			</div>
+		</div>
+	</section>	
+	<footer class="theme-black">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Address</h4>
+					<p>UK - 71-75 Shelton St, London WC2H 9JQ, United Kingdom<br>
+
+						Malaysia - EQ Plaza, Level 18 Lot 1217, Seksyen, 57, Jln Sultan Ismail, 50250 Kuala Lumpur</p>
+					<ul class="socail-link">
+
+						<li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+					</ul>	
+				</div>
+				<div class="col-md-3">
+					<h4>Quick Links
+					</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+					</ul>
+				</div>
+				<div class="col-md-5">
+					<h4>Get In Touch
+					</h4>
+					<ul>
+						<li><a href="#">info@parklandspropertygroup.com</a></li>
+						<li><a href="#">+601230997004</a></li>
+						
+					</ul>
+					<p>Sign up to receive updates & special offers.
+					</p>
+					
+				</div>
+			</div>
+			<p class="copy">©2024 bnb - All rights reserved
+			</p>
+		</div>
+	</footer>
+
+
+	
+
+	<!-- jquary-cdn-link -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<!-- animation cdn lik -->
+    <script src="js/wow.min.js"></script>
+	<!-- main.js -->
+	<script src="js/main.js"></script>
+</body>
+</html>
